@@ -11,5 +11,5 @@ add_library(${PROJECT_NAME}_Game SHARED
 
 #API Headers
 target_include_directories(${PROJECT_NAME}_Game PRIVATE
-        include
+        sdk/include
 )

@@ -1,5 +1,6 @@
 #include "game_api.h"
 #include "system_api.h"
+#include "sdk.h"
 
 static void game_init(SystemAPI* sys) {
     sys->clear(0x2D3C);

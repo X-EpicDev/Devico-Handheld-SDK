@@ -17,5 +17,9 @@ even after large updates, I plan to keep backwards compatibility as much as i ca
 ### Rendering Functions
 - sys->clear(uint16_t colour) - clears the screen to a single colour using the RGB565 Format
 
+## NOTES
+- The PC Runtime is not currently available to the public, but within a few days of this commit, i should have a version included into the SDK for use
+
 ## Credits
 - X_EpicDev (Literally Everything)
+

@@ -5,8 +5,7 @@
 
 typedef struct GameAPI{
     void (*init)(SystemAPI* sys);
-    void (*update)(SystemAPI* sys);
-    void (*render)(SystemAPI* sys);
+    void (*main)(SystemAPI* sys);
 } GameAPI;
 
 GameAPI* get_game_api(void);
